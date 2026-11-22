@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: darkblue;
+    line-height: 1.6;
+}
+
+.main-header {
+    text-align: center;
+    padding: 30px 15px;
+    color: aliceblue;
+    background-color: darkblue;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 25px;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: plum;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.album-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 10px 45px;
+}
+
+.album-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.321);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.album-card h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.album-card p {
+    margin-top: 0;
+    color: cornflowerblue;
+}
+
+.album-card:hover {
+    transform: translateY(18px) scale(1.08);
+    box-shadow: 0 12px 22px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+.inventory {
+    margin-top: 25px;
+    margin-bottom: 45px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: aliceblue;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+td {
+    padding: 13px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+tbody tr:hover {
+    background-color: lightblue;
+}
+
+.about-content {
+    min-height: 450px;
+}
+
+.store-image {
+    float: left;
+    width: 280px;
+    max-width: 45%;
+    height: auto;
+    margin: 5px 25px 15px 0;
+    border-radius: 8px;
+}
+
+.store-note {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.hours-box {
+    position: relative;
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.visit-section {
+    margin-top: 40px;
+    clear: both;
+}
+
+.site-footer {
+    background-color: darkblue;
+    text-align: center;
+    color: aliceblue;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+.site-footer h3 {
+    color: aliceblue;
+    margin-top: 0;
+}
+
+.site-footer p {
+    margin: 5px 0;
+}
+
+.site-header h1 {
+    font-size: 2rem;
+}
+
+main {
+    padding: 15px;
+}
+
+.album-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.album-card {
+    width: 155px;
+}
+
+.store-image {
+    float: none;
+    display: block;
+    max-width: 100%;
+    width: 280px;
+    margin: 10px auto 20px;
+}
+
+.inventory table {
+    min-width: 400px;
+}

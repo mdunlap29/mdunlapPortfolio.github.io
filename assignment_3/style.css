@@ -1,0 +1,170 @@
+#main-header {
+    text-align: center;
+    padding: 30px 15px;
+    color: darkblue;
+    background-color: rgb(206, 241, 229);
+    font-family: "Playwrite Ca";
+    font-style: normal;
+    border-style: dotted;
+    border-color: darkblue;
+    border-width: 9px;
+}
+
+#under-header {
+    font-family: "Didact Gothic";
+}
+
+body {
+    font-family: "Bodoni Moda";
+    background-color: rgb(237, 243, 226);
+    color: darkblue;
+}
+
+#menu-header {
+    font-family: "Playwrite Ca";
+    text-align: center;
+}
+
+#directions-header, #map {
+    display: none;
+}
+
+.food-description{
+    display: none;
+}
+
+.food-containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 10px 45px;
+    border-style: dotted;
+    border-width: 9px;
+    border-color: rgb(206, 241, 229);
+}
+
+.food-pic {
+    background-color: rgb(206, 241, 229);
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.food-pic img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.food-pic h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+#footer {
+    background-color: darkblue;
+    text-align: center;
+    color: rgb(206, 241, 229);
+    padding: 25px 15px;
+    margin-top: 40px;
+    border-style: dotted;
+    border-color: rgb(206, 241, 229);
+    border-width: 9px;
+}
+
+#footer h3 {
+    font-family: "Playwrite Ca";
+}
+
+#footer p {
+    font-family: "Didact Gothic";
+}
+
+@media screen and (max-width: 1100px) and (min-width: 501px) {
+
+    .food-description {
+        display: block;
+    }
+
+    .food-containers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 25px 10px 45px;
+        border-style: dotted;
+        border-width: 9px;
+        border-color: rgb(206, 241, 229);
+    }
+
+    .food-pic img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+        flex-shrink: 0;
+    }
+
+    .food-pic {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        background-color: rgb(206, 241, 229);
+        border-radius: 5px;
+        padding: 15px;
+        text-align: left;
+        width: 80%;
+        height: 225px;
+    }
+
+    .food-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-big {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #menu-header{
+        display: none;
+    }
+
+    #directions-header {
+        display: block;
+        font-family: "Playwrite Ca";
+        text-align: center;
+    }
+
+    #map {
+        display: block;
+        align-items: center;
+    }
+
+    #map-pic {
+        display: flex;
+        width: 80%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .food-containers {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    }
+}

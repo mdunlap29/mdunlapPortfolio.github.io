@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(186, 227, 252);
+}
+
+h1{
+    color:rgb(157, 16, 155);
+}
+
+p, li{
+    color:rgb(58, 16, 112);
+}
+
+section{
+    border-style: dotted;
+    border-color: rgb(226, 43, 192);
+}
+#flowers{
+    border-style: dotted;
+    border-color: rgb(247, 250, 252);
+    text-align: center;
+}
+
+#buildings{
+    border-style: dotted;
+    border-color: rgb(247, 250, 252);
+    text-align: center;
+}
+
+#thanks{
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
