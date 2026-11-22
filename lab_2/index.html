@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Partner Lab 2</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav style="background-color: #222; padding: 12px 24px; font-family: sans-serif; display: flex; justify-content: space-between; align-items: center;">
+            <a href="../index.html" style="color: lightblue; text-decoration: none; font-weight: bold; font-size: 16px;">
+            &larr; Back to Main Portfolio
+            </a>
+        </nav>
+
+        <h1 id="greeting">Hello User!</h1>
+        <p id="briefMessage">Welcome to the Partner Lab 2 page! This page was made by Mackenzie Dunlap.
+            This page was designed to allow the user (you!) to have an interactive experience.
+            Hopefully you enjoy making this page something customizable!!
+        </p>
+
+        <br>
+
+        <label for="userName">Please enter your name:</label>
+        <input type="text" id="userName" name="userName">
+        <br>
+        
+        <label for="newMessage">Please enter a brief message:</label>
+        <input type="text" id="newMessage" name="newMessage">
+        <br>
+
+        <label for="bgColor">Please select a color for the background:</label>
+        <select id="bgColor">
+            <option>Blue</option>
+            <option>Purple </option>
+            <option>Green</option>
+            <option>Yellow</option>
+            <option>Pink</option>
+            <option>Teal</option>
+        </select>
+
+        <br>
+
+        <button onclick="userChanges();">Submit</button>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

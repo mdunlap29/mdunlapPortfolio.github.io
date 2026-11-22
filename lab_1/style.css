@@ -1,0 +1,177 @@
+* {
+   background-color: #cbc1ee;
+}
+
+#header {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.apple_link{
+    color: black;
+    font-family: "Inter";
+    font-size: 27px;
+}
+
+.images {
+    border: solid 25px;
+    border-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, p, h2 {
+    font-family: "Inter";
+}
+
+button{ 
+    position: relative;
+    top: 20px;
+    left: 660px;
+    background-color: lightblue;
+    border: 5px solid white;
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-family: "Inter";
+    color: rgb(82, 38, 102);
+    text-align: center;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.centertext{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+#the_mission {
+    background-color: white;
+    padding-bottom: 116px;
+    padding-top: 302px;
+    padding-right: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+#mission {
+    background-color: white;
+    padding-bottom: 23px;
+    padding-left: 20px;
+    margin-top: 18px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#apple_innovation {
+    padding-bottom: 150px;
+    padding-top: 125px;
+    padding-right: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#apple_collaboration {
+    background-color: white;
+    padding-bottom: 175px;
+    padding-top: 302px;
+    padding-right: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+#collaboration {
+    background-color: white;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 18px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#collaboration-style {
+    background-color:white;
+}
+
+#apple_services {
+    padding-bottom: 116px;
+    padding-top: 200px;
+    padding-right: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+#nobackground {
+    padding-bottom: 116px;
+    padding-top: 130px;
+    padding-right: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.no_background-color-left{
+    padding-bottom: 23px;
+    padding-left: 20px;
+    margin-top: 18px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#yesbackground {
+    background-color: white;
+    padding-bottom: 220px;
+    padding-top: 302px;
+    padding-right: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+#background-color {
+    background-color: white;
+    padding-bottom: 23px;
+    padding-left: 0;
+    margin-top: 18px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+#watch_images {
+   width: 400px;
+   height: auto;
+}
+
+#tv_images {
+    width: 300px;
+    height: auto;
+}
